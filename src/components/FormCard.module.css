@@ -1,0 +1,68 @@
+/* 🌿 Contenedor del formulario */
+.formCard {
+  background-color: aquamarine;
+  border-radius: 12px;
+  padding: 20px;
+
+  /* Acomoda los elementos en columna */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+
+  /* Tamaño adaptable */
+  width: 100%;
+  max-width: 350px;
+}
+
+/* 🧾 Título del formulario */
+.formCard h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 8px;
+}
+
+/* 🧱 Estilo para el formulario como bloque */
+.formCard form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+/* 📥 Estilo general para inputs y selects */
+.formCard input,
+.formCard select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  background-color: white;
+}
+
+/* ✨ Resalta el input cuando se hace clic */
+.formCard input:focus,
+.formCard select:focus {
+  border-color: teal;
+  outline: none;
+}
+
+/* 🔘 Botón para enviar el formulario */
+.formCard button {
+  padding: 12px;
+  background-color: teal;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+/* 🎯 Cambia de color cuando el mouse está encima */
+.formCard button:hover {
+  background-color: #007a74;
+}

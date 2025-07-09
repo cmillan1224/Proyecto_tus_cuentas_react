@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  flex-wrap: wrap; /* Permite que se acomoden en columna si no hay espacio */
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 40px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column; /* Cambia a vertical en pantallas pequeñas */
+    align-items: center;
+    padding: 20px;
+  }
+}
