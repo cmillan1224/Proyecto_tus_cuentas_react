@@ -55,7 +55,8 @@ const FormCard = ({ onAdd, editData, onEditDone }) => {
         </select>
 
         <input
-          type="text"
+          type="number"
+          min="1"
           name="cop"
           placeholder="COP"
           value={form.cop}
